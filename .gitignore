@@ -4,7 +4,6 @@
 /test/fixtures/temp-cache-fixture
 /benchmark/js
 /benchmark/fixtures
-/examples/**/dist
 /coverage
 .DS_Store
 *.log
@@ -12,6 +11,6 @@
 .vscode
 .eslintcache
 package-lock.json
-WebPack.code-workspace
-dist/main.js
 dist/
+!dist/index.html
+*.code-workspace
