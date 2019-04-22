@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import Icon from './icon.png';
+import Data from './data.xml';
 
 function component() {
   let element = document.createElement('div');
@@ -17,6 +18,8 @@ function component() {
 <i class="icofont-like"></i>
 <i class="icofont-plus"></i>
 <i class="icofont-home"></i>`;
+
+  console.log(Data);
 
   return element;
 }

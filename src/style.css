@@ -15,7 +15,6 @@ url("./fonts/icofont.woff") format("woff");
 [class^="icofont-"], [class*=" icofont-"]
 {
   font-family: 'IcoFont';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -24,8 +23,6 @@ url("./fonts/icofont.woff") format("woff");
   word-wrap: normal;
   direction: ltr;
   line-height: 1;
-/* Better Font Rendering =========== */
-  -webkit-font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
 }
 
