@@ -12,6 +12,11 @@ function component() {
   var myIcon = new Image();
   myIcon.src = Icon;
   element.appendChild(myIcon);
+  element.innerHTML += `<i class="icofont-box"></i>
+<i class="icofont-close-line" ></i>
+<i class="icofont-like"></i>
+<i class="icofont-plus"></i>
+<i class="icofont-home"></i>`;
 
   return element;
 }
