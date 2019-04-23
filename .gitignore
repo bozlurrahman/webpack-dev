@@ -12,5 +12,4 @@
 .eslintcache
 package-lock.json
 dist/
-!dist/index.html
 *.code-workspace
