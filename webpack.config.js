@@ -16,19 +16,13 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Output Management'
+      title: 'Caching'
     }),
     new webpack.HotModuleReplacementPlugin()
   ],
   output: {
-    filename: '[name].bundle.js',
-    chunkFilename: '[name].bundle.js',
+    filename: '[name].[hash].js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/'
-  },
-  optimization: {
-    splitChunks: {
-      chunks: 'all'
-    }
   }
 };
