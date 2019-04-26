@@ -9,3 +9,8 @@ function getComponent() {
 getComponent().then(component => {
   document.body.appendChild(component);
 })
+var myp = document.createElement('p');
+
+myp.innerHTML = "lorem mane moja";
+
+document.body.appendChild( myp );
